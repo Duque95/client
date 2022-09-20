@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import { Navigate, Routes, Route } from 'react-router-dom';
+import Nav from './components/Nav';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Hello
         </a>
       </header>
     </div>
